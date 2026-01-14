@@ -22,18 +22,7 @@ Ce projet explore la synergie entre **perception neuronale** et **raisonnement s
 
 ---
 
-Architecture
-
-```mermaid
-graph LR
-A[Données Multi-Source] --> B[Ontologie Formelle]
-B --> C[(Graphe Neo4j)]
-C --> D[Graph Embeddings<br>(Node2Vec / R-GCN)]
-D --> E[Clustering Sémantique]
-E --> F[Évaluation Hybride<br>(F1 hybride, CV, densité explicative)]
-F --> G[Dashboard Interactif]
-
-Composants clés
+Composants 
 
 Ontologie : classes (FinancialInstitution, NonStateActor, MilitaryBase), relations (FUNDS, LOCATED_AT), axiomes.
 Graphe de connaissances : stocké dans Neo4j avec labels et types de relation natifs.
