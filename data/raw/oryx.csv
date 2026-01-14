@@ -1,0 +1,3 @@
+event_id,date,actor,opponent,equipment_name,equipment_type,location,source
+EV001,2025-01-15,Armee_Tchad,Janjaweed,T-72,Vehicle,Ndjamena,Oryx
+EV002,2025-02-03,Wagner,Armee_Tchad,Mi-24,Vehicle,Aouzou,Oryx

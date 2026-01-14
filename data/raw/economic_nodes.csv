@@ -1,0 +1,10 @@
+id,label,type,montant,pays
+FI001,BlackRock,FinancialInstitution,8500000000000,USA
+FI002,JPMorgan Chase,FinancialInstitution,3700000000000,USA
+FI003,Vanguard Group,FinancialInstitution,7200000000000,USA
+NSA001,Wagner Group,NonStateActor,,RUS
+NSA002,Janjaweed,NonStateActor,,SDN
+SA001,Armée du Tchad,StateActor,,TCD
+LOC001,N'Djamena,UrbanArea,,TCD
+LOC002,Aouzou Strip,BorderZone,,TCD
+INF001,Société des Pétroles du Tchad,CriticalInfrastructure,,TCD

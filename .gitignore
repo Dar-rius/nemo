@@ -1,0 +1,13 @@
+# Fichiers sensibles
+src/config/credentials.txt
+
+# Environnement
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Résultats générés
+results/
+data/processed/
+.DS_Store
