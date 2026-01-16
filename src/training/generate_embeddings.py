@@ -1,6 +1,6 @@
+from karateclub import Node2Vec
 import pandas as pd
 import networkx as nx
-from karateclub import Node2Vec
 from py2neo import Graph
 from pathlib import Path
 

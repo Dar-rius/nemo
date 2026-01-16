@@ -1,5 +1,4 @@
 # src/ingestion/ingest_economic.py
-
 import pandas as pd
 from py2neo import Graph
 from pathlib import Path
@@ -32,7 +31,6 @@ for _, row in nodes_df.iterrows():
     node_id = row['id']
     node_type = row['type']  # ex: "FinancialInstitution"
     supertype = get_node_supertype(node_type) or "Entity"
-    
     props = {k: v for k, v in row.items() if pd.notna(v)}
     query = f"""
     MERGE (n:{node_type}:{supertype} {{id: $id}})
